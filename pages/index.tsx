@@ -13,10 +13,10 @@ const Home: NextPage = () => {
           <h1 className="mb-6 text-xl font-semibold text-[#eb9a64]">
             YourUniversity
           </h1>
-          <p className="mx-auto mb-5 w-full bg-orange-50 py-4 text-center">
-            Alumni Donation Form
-          </p>
           <form>
+            <p className="mx-auto mb-5 w-full bg-orange-50 py-4 text-center">
+              Alumni Donation Form
+            </p>
             <div className="mb-4 grid grid-cols-2 gap-x-6">
               <div className="flex flex-col">
                 <label htmlFor="firstName" className="mb-2 text-xs">
